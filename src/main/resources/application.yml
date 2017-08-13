@@ -1,0 +1,7 @@
+rabbitmq:
+  task-queue: tasks
+  result-queue: results
+  concurrency: 1
+
+server:
+  task-size: 1000
